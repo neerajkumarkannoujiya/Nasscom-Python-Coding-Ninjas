@@ -1,0 +1,8 @@
+n = input("Enter the Word:")
+print(n)
+
+
+/* OUTPUT: 
+User input value
+
+*/
