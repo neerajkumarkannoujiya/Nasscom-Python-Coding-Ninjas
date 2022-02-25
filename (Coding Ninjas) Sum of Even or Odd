@@ -1,0 +1,15 @@
+## Note : For printing multiple values in one line, put them inside print separated by space.
+## You can follow this syntax for printing values of two variables val1 and val2 separaetd by space -
+## print(val1, " ", val2)
+num = int(input())
+sum_even=0
+sum_odd=0
+value=0
+while(num>0):
+    value=num%10
+    num=num//10
+    if value%2==0:
+        sum_even=sum_even+value
+    else:
+        sum_odd=sum_odd+value
+print(str(sum_even) + " " + str(sum_odd))
