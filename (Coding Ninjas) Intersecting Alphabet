@@ -1,0 +1,11 @@
+num = int(input())
+i=num
+while(i>=1):
+    ch=ord('A')+i-1
+    j=num
+    while(j>=i):
+        print(chr(ch),end='')
+        ch=ch+1
+        j=j-1    
+    print()    
+    i=i-1
