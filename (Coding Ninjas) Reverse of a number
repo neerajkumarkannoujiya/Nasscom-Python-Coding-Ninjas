@@ -1,0 +1,17 @@
+#Write Your Code Here
+
+n=int(input())
+pow_inc=0
+reverse=0
+number=n
+while number!=0:
+    number=number//10
+    pow_inc=pow_inc+1
+   
+while n!=0:
+    rem=n%10
+    val=10**(pow_inc-1)
+    n=n//10
+    reverse=reverse+rem*val
+    pow_inc=pow_inc-1
+print(reverse)
