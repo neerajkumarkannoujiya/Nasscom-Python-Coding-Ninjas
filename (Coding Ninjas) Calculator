@@ -1,0 +1,29 @@
+# Write your code here
+
+while True:
+    i=int(input())
+   
+    if i==1:
+        a=int(input())
+        b=int(input())
+        print(a+b)
+    elif i==2:
+        a=int(input())
+        b=int(input())
+        print(a-b)
+    elif i==3:
+        a=int(input())
+        b=int(input())
+        print(int(a*b))
+    elif i==4:
+        a=int(input())
+        b=int(input())
+        print(a//b)
+    elif i==5:
+        a=int(input())
+        b=int(input())
+        print(a%b)
+    elif i==6:
+        break;
+    else:
+        print("Invalid Operation")
