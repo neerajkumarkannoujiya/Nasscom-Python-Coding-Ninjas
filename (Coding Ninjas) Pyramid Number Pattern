@@ -1,0 +1,24 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+n=int(input())
+i=1
+while(i<=n):
+    j=n-i
+    while(j>=1):
+        print(' ',end="")
+        j=j-1
+    k=1
+    p=i
+    while(k<=i):
+        print(p,end="")
+        p=p-1
+        k=k+1
+    r=1
+    s=2
+    while(r<=i-1):
+        print(s,end="")
+        s=s+1
+        r=r+1
+        
+    print()
+    i=i+1
