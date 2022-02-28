@@ -1,0 +1,45 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+num = int(input())
+i=1
+while(i<=num):
+    j=1
+    while(j<=i-1):
+        print('0',end="")
+        j=j+1
+        
+    k=1
+    while(k<=i):
+        if k==i:
+            print('*',end="")
+        k=k+1  
+    l=1
+    while(l<=num-i):
+        print('0',end="")
+        l=l+1
+    m=1
+    while(m<=(2*num)+1):
+        if m==(2*num)+1:
+            print('*',end="")
+        m=m+1
+        
+    p=1
+    while(p<=num-i):
+        print('0',end="")
+        p=p+1
+        
+    q=1
+    while(q<=num):
+        if q==i:
+            print('*',end="")
+        q=q+1  
+        
+    r=1
+    while(r<=i-1):
+        print('0',end="")
+        r=r+1
+        
+
+    print()
+    i=i+1
+    
