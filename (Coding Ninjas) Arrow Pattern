@@ -1,0 +1,34 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+n=int(input())
+n1=(n+1)/2
+i=1
+while(i<=n1):
+    j=1
+    while(j<=i-1):
+        print(' ',end="")
+        j=j+1
+    
+    k=1
+    while(k<=i):
+        print('* ',end="")
+        k=k+1
+        
+    print()
+    i=i+1
+n2=n1-1
+j=1
+while(j<=n2):
+    k=1
+    while(k<=n2-j):
+        print(' ',end="")
+        k=k+1
+        
+    l=j
+    while(l<=n2):
+        print('* ',end="")
+        l=l+1
+        
+    
+    print()
+    j=j+1
