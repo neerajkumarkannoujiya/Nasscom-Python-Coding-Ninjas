@@ -1,0 +1,31 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+N=int(input())
+n1=(N+1)/2
+i=1
+while(i<=n1):
+    spaces=1
+    while(spaces<=n1-i):
+        print(' ',end="")
+        spaces=spaces+1
+    star=1
+    while(star<=2*i-1):
+        print('*',end="")
+        star=star+1
+        
+    print()
+    i=i+1
+n2=n1-1
+j=1
+while(j<=n2):
+    space=1
+    while(space<=j):
+        print(' ',end="")
+        space=space+1
+    
+    star=2*(n2-j+1)-1
+    while(star>=1):
+        print('*',end="")
+        star=star-1
+    print()
+    j=j+1
