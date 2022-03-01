@@ -1,0 +1,16 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+num = int(input())
+n1=1
+n2=1
+val=2
+n3=0
+if num==1 or num==2:
+    print(1)
+else:
+    while val != num:
+        n3=n2+n1
+        n1=n2
+        n2=n3
+        val=val+1
+    print(n3)    
