@@ -1,0 +1,34 @@
+import sys
+def findUnique(arr, n) :
+    for i in range(n) :
+        j = 0
+        while j < n :
+            if i != j :
+                if arr[i] == arr[j] :
+                    break
+            j += 1
+        if j == n : 
+            return arr[i]
+def takeInput() :
+    n = int(input())
+    if n == 0 :
+        return list(), 0
+    arr = list(map(int, input().rstrip().split(" "))) 
+    return arr, n
+t = int(input()) 
+while t > 0 : 
+    arr, n = takeInput()
+    print(findUnique(arr, n)) 
+    t -= 1
+    
+    
+    '''
+    
+    OUTPUT:
+    
+1
+7
+2 3 1 6 3 6 2
+1
+
+'''
