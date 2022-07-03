@@ -1,0 +1,6 @@
+str = input("Enter any String\n")
+str1 = ""
+L=str
+str = [i[0].upper()+i[1:] for i in L.split()]
+str1 = ' '.join (str)
+print(str1)
