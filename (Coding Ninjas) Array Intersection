@@ -7,7 +7,6 @@ def intersections(arr1, n, arr2, m):
                 print(arr1[i], end = " ") 
                 arr2[j] = sys.maxsize 
                 break   
-
 def takeInput() :
     n = int(sys.stdin.readline().strip()) 
     if n == 0:
