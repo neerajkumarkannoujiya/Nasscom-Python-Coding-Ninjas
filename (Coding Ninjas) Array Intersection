@@ -9,6 +9,7 @@ def intersections(arr1, n, arr2, m):
                 break 
                 
 
+
 def takeInput() :
     n = int(sys.stdin.readline().strip()) 
     if n == 0:
