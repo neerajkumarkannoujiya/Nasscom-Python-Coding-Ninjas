@@ -10,3 +10,4 @@ while(i<=num):
         j=j+1    
     print()    
     i=i+1
+    
