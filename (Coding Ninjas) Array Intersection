@@ -17,7 +17,6 @@ def takeInput() :
 t = int(sys.stdin.readline().strip())
 while t > 0 :
     arr1, n = takeInput()
-    
     arr2, m = takeInput()
     intersections(arr1, n, arr2, m)
     print() 
