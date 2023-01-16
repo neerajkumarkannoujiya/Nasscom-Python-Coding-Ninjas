@@ -1,6 +1,7 @@
 # Read input as sepcified in the question
 # Print output as specified in the question
 
+
 marks1=int(input())
 marks2=int(input())
 marks3=int(input())
