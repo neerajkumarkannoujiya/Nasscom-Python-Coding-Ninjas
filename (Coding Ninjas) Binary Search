@@ -1,4 +1,5 @@
 from sys import stdin
+
 def binarySearch(arr, n, x) : 
     start = 0;
     end = n - 1 
