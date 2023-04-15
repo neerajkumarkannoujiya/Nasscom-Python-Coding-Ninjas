@@ -7,6 +7,17 @@ Change in the input array/list itself. You don't need to return or print the ele
 
 You need to do this in one scan of array only. Don't use extra space.
 
+
+
+
+
+
+
+
+
+
+
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 def pushZerosAtEnd(arr, n) :
