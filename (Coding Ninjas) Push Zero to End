@@ -1,7 +1,8 @@
 
 Push Zeros to end
 
-You have been given a random integer array/list(ARR) of size N. You have been required to push all the zeros that are present in the array/list to the end of it. Also, make sure to maintain the relative order of the non-zero elements.
+You have been given a random integer array/list(ARR) of size N. You have been required to push all the zeros that are present in the array/list to the end of it.
+Also, make sure to maintain the relative order of the non-zero elements.
 Note:
 Change in the input array/list itself. You don't need to return or print the elements.
 
@@ -18,7 +19,7 @@ You need to do this in one scan of array only. Don't use extra space.
 
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**************************************************************************************************************************************************************
 
 
 
