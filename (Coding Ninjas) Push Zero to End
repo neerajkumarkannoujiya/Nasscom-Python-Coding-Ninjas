@@ -20,6 +20,16 @@ You need to do this in one scan of array only. Don't use extra space.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+
+
+
+
+
+
+
+
+
 def pushZerosAtEnd(arr, n) :
     count=0
     for i in range(n):
