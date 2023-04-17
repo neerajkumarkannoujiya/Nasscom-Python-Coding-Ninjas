@@ -21,6 +21,7 @@ def takeInput() :
         return arr, n
     return list(), 0
 t = int(input().rstrip()) 
+
 while t > 0 :
     arr, n = takeInput()
     print(secondLargestElement(arr, n)) 
