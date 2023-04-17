@@ -13,6 +13,7 @@ def secondLargestElement(arr, n):
         elif secondLargest < arr[i] and arr[i] != largest :
             secondLargest = arr[i] 
     return secondLargest 
+    
 def takeInput() :
     n = int(input()) 
     if n != 0: 
