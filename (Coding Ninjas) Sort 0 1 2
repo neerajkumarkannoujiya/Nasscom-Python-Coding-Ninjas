@@ -17,6 +17,7 @@ def sort012(arr, n) :
             nextTwo -= 1
         else : 
             i += 1 
+            
 def takeInput() : 
     n = int(input().rstrip())
     if n == 0 :
