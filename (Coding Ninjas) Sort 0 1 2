@@ -30,6 +30,7 @@ def printList(arr, n) :
         print(arr[i], end = " ")
     print() 
 t = int(input())
+
 while t > 0 :
     arr, n = takeInput() 
     sort012(arr, n)
