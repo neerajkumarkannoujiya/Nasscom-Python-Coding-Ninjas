@@ -24,6 +24,7 @@ def takeInput() :
         return list(), 0 
     arr = list(map(int, input().rstrip().split(" ")))
     return arr, n
+    
 def printList(arr, n) : 
     for i in range(n) :
         print(arr[i], end = " ")
