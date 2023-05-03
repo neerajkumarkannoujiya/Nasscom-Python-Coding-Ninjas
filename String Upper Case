@@ -1,5 +1,4 @@
 
-
 str = input("Enter any String\n")
 str1 = ""
 L=str
