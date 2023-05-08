@@ -1,6 +1,7 @@
 
 # Write your code here
 
+
 while True:
     i=int(input())
     
