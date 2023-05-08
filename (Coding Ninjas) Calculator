@@ -3,7 +3,6 @@
 
 while True:
     i=int(input())
-    
     if i==1:
         a=int(input())
         b=int(input())
