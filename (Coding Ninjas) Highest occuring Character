@@ -6,7 +6,6 @@ def get_max_occuring_char(str1):
   for i in str1:
     ctr[ord(i)]+=1;
  
- 
   for i in str1:
     if max < ctr[ord(i)]:
       max = ctr[ord(i)]
