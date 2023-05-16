@@ -11,6 +11,5 @@ def get_max_occuring_char(str1):
       max = ctr[ord(i)]
       ch = i
   return ch
-
 str1=input()
 print(get_max_occuring_char(str1))
