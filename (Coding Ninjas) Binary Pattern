@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Solution {
+
 	public static void printFahrenheitTable(int start, int end, int step) {
 		/* Your class should be named Solution 
 		 * Don't write main(). 
