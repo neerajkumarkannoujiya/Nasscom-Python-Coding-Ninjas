@@ -15,7 +15,6 @@ def binarySearch(arr, n, x) :
             return mid 
     return -1
     
-    
 def takeInput() :
     n = int(input())
     if n == 0 :
