@@ -25,3 +25,4 @@ while t > 0 :
     x = int(input().strip()) 
     print(binarySearch(arr, n, x)) 
     t -= 1
+
